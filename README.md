@@ -1,10 +1,10 @@
-SQLite vs. DuckDB: Analytical Performance Benchmark
+**SQLite vs. DuckDB: Analytical Performance Benchmark**
 This project provides a comprehensive performance comparison between SQLite (a row-based RDBMS) and DuckDB (a columnar OLAP database). It evaluates how each engine handles analytical workloads, specifically focusing on query latency and memory consumption when processing large-scale datasets.
 
-📊 Overview
+**📊 Overview**
 The benchmark utilizes the NYC Taxi Dataset to simulate real-world data science tasks. By comparing a traditional transactional engine against a modern analytical one, this project demonstrates why columnar storage is often superior for heavy aggregations and data analysis.
 
-📁 Project Structure
+**📁 Project Structure**
 As seen in the workspace:
 
 app.py: The main execution script for the benchmark suite.
@@ -21,7 +21,7 @@ requirements.txt: Lists all necessary Python dependencies.
 
 README.md: Project documentation.
 
-🚀 Getting Started
+**🚀 Getting Started**
 1. Installation
 Clone the repository and install the required packages:
 
@@ -42,7 +42,8 @@ Create the comparison plots to see the results:
 
 Bash
 python visualize.py
-📈 Results & Visuals
+
+**📈 Results & Visuals**
 The suite generates several outputs for analysis:
 
 latency_plot.png: A visual comparison of query execution times.
@@ -51,7 +52,7 @@ memory_bar_chart.png: A comparison of memory footprint during processing.
 
 benchmark_results.csv: Raw performance metrics exported for further study.
 
-🛠 Tech Stack
+**🛠 Tech Stack**
 Database Engines: SQLite, DuckDB
 
 Data Format: Apache Parquet
