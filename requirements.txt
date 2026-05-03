@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+SQLite3
+DuckDB
+pyarrow
+streamlit
+seaborn
